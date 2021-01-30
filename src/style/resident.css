@@ -1,0 +1,21 @@
+.indicator {
+    width: 2em;
+    height: 2em;
+    background-color: gray;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.indicator.on {
+    background-color: limegreen;
+}
+
+.indicator.updated {
+    background-color: darkorange;
+}
