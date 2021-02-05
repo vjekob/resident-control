@@ -15,6 +15,8 @@ page 50100 "Resident Subpage"
                 begin
                     CurrPage.Resident.StartListening();
                     Resident.Initialize(CurrPage.Resident);
+                    ResidentKeeper.Initialize(Resident);
+                    BindSubscription(ResidentKeeper);
                 end;
 
                 trigger OnKeyPressed(EventInfo: JsonObject)
@@ -27,4 +29,7 @@ page 50100 "Resident Subpage"
             }
         }
     }
+
+    var
+        ResidentKeeper: Codeunit "Resident Keeper";
 }

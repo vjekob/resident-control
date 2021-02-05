@@ -4,8 +4,10 @@ page 50101 "Resident Popup"
 
     trigger OnOpenPage()
     var
-        Resident: Codeunit Resident;
+        ResidentKeeper: Codeunit "Resident Keeper";
+        Resident: Interface IResident;
     begin
-        Resident.Update();
+        if ResidentKeeper.RetrieveInstance(Resident) then
+            Resident.Update();
     end;
 }

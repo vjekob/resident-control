@@ -1,4 +1,5 @@
 # resident-control
-This repo follows the examples presented during the "Resident Control Add-ins" live session on Vjeko.live on January 29, 2021
+This branch follows the examples presented during the "Resident Control Add-ins - part 2" live session on Vjeko.live on February 5, 2021
 
-https://www.youtube.com/watch?v=9bpTMJITp3w
+https://www.youtube.com/watch?v=L7tWfuynbV4
+

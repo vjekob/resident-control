@@ -1,0 +1,4 @@
+interface IResident
+{
+    procedure Update();
+}

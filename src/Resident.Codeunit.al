@@ -1,16 +1,14 @@
-codeunit 50100 Resident
+codeunit 50101 Resident implements IResident
 {
-    SingleInstance = true;
-
     var
         Resident: ControlAddIn Resident;
 
-    procedure Initialize(Resident2: ControlAddIn Resident)
+    procedure Initialize(ResidentIn: ControlAddIn Resident)
     begin
-        Resident := Resident2;
+        Resident := ResidentIn;
     end;
 
-    procedure Update();
+    procedure Update()
     begin
         Resident.Update();
     end;
